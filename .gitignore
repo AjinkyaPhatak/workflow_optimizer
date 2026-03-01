@@ -1,0 +1,13 @@
+# Frontend
+workflow_optimizer_frontend/node_modules
+workflow_optimizer_frontend/.next
+
+# Backend
+workflow_optimizer_backend/target
+
+# Env
+.env
+
+# OS
+.DS_Store
+Thumbs.db

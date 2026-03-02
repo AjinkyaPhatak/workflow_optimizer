@@ -8,6 +8,3 @@ workflow_optimizer_backend/target
 # Env
 .env
 
-# OS
-.DS_Store
-Thumbs.db

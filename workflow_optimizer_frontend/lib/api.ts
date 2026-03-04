@@ -1,7 +1,7 @@
-// API client for Workflow Optimizer Backend
+// API client for Workflow Optimizer Backend protected by Next.js Server proxy
 
-const API_BASE_URL =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080/api";
+// We now call our own Next.js API Route which holds the secret and forwards to Spring
+const API_BASE_URL = "/api/proxy";
 
 // --- Types ---
 
